@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.2](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.1...@paladin-analytics/rpdf-layout@2.7.2) (2022-11-23)
+
+
+### Bug Fixes
+
+* **pagination:** update fixed node detection ([1c16dc9](https://github.com/Paladin-Analytics/react-pdf/commit/1c16dc9249bef2068ad816cad526601fb034e552))
+
+
+### Reverts
+
+* remove files unnecessary changes ([73477e2](https://github.com/Paladin-Analytics/react-pdf/commit/73477e263a0aa74044024b810a1f91c6e6262d49))
+
+
+
+
+
 ## [2.7.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.0...@paladin-analytics/rpdf-layout@2.7.1) (2022-11-12)
 
 
