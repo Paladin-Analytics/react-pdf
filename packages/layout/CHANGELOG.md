@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.3](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.2...@paladin-analytics/rpdf-layout@2.7.3) (2022-11-24)
+
+
+### Bug Fixes
+
+* **footnotes:** fix top calculation ([673ce07](https://github.com/Paladin-Analytics/react-pdf/commit/673ce074f6431e4f23352eb01215e2ed66c391d1))
+
+
+### Reverts
+
+* **footnotes:** revert top calculation changes ([08353a6](https://github.com/Paladin-Analytics/react-pdf/commit/08353a629d126f1360d839f6c5e054e71562c0dd))
+
+
+
+
+
 ## [2.7.2](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.1...@paladin-analytics/rpdf-layout@2.7.2) (2022-11-23)
 
 
