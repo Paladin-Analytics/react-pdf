@@ -54,6 +54,9 @@ function calculateFootnoteLocations(nodes) {
  * @returns
  */
 function getFootnotes(node, top = 0) {
+  const parentTop = top || 0;
+  const nodeTop = node.box?.top || 0;
+
   if (node.props?.footnote) {
     return [
       { el: node, loc: 0, approxTop: top, approxBottom: top + node.box.height },
@@ -72,7 +75,7 @@ function getFootnotes(node, top = 0) {
       node.children,
     );
     const notes = [];
-    let topUpto = (node.box?.top || 0) + top;
+    let topUpto = nodeTop + parentTop;
 
     for (let i = 0; i < node.lines.length; i += 1) {
       const line = node.lines[i];
@@ -99,20 +102,8 @@ function getFootnotes(node, top = 0) {
 
     return notes;
   }
-
-  let heights = top === undefined ? node.box?.paddingTop : 0;
-
   for (const child of node.children) {
-    footnotes.push(
-      ...getFootnotes(
-        child,
-        // top value is defined relative to the parent in Text nodes
-        (node.box?.top === 0 && top !== undefined) || child.type !== 'VIEW'
-          ? top + heights
-          : node?.box?.top + heights,
-      ),
-    );
-    heights += child.box.height;
+    footnotes.push(...getFootnotes(child, nodeTop + parentTop));
   }
   return footnotes;
 }
