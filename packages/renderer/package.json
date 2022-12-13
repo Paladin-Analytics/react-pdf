@@ -1,6 +1,6 @@
 {
   "name": "@paladin-analytics/rpdf-renderer",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "license": "MIT",
   "types": "index.d.ts",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@babel/runtime": "^7.6.2",
     "@paladin-analytics/rpdf-font": "^2.2.3",
-    "@paladin-analytics/rpdf-layout": "^2.7.3",
+    "@paladin-analytics/rpdf-layout": "^2.7.4",
     "@paladin-analytics/rpdf-pdfkit": "^2.0.16",
     "@paladin-analytics/rpdf-primitives": "^2.0.5",
     "@paladin-analytics/rpdf-render": "^2.1.21",
