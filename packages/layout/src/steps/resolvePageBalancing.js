@@ -23,7 +23,7 @@ const BINARY_SEARCH_DEPTH = 8;
 /**
  * Max value allowed for letter spacing (coincides with `tracking` in design)
  */
-const MAX_RELATIVE_LETTER_SPACING_VALUE = 12;
+const MAX_RELATIVE_LETTER_SPACING_VALUE = 256;
 
 const isText = R.propEq('type', P.Text);
 const isAllowDynamicLetterSpacing = node => !!node.style?.dynamicLetterSpacing;
