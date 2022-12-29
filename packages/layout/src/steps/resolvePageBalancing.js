@@ -87,6 +87,12 @@ const applyLetterSpacingProp = (node, letterSpacing) => {
 };
 
 const dropLayoutAttributes = node => {
+  // avoid dropping the layout attributes if the node is an artefact. The text content has been split into
+  // 2 pages, so we don't want to re-layout the paragraph
+  if (isOrphanWidowProtectionArtefact(node)) {
+    return node;
+  }
+
   if (isText(node)) {
     return R.compose(
       R.assocPath(['box'], {}),
