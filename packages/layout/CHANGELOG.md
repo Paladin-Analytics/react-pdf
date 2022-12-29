@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.5](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.4...@paladin-analytics/rpdf-layout@2.7.5) (2022-12-29)
+
+
+### Bug Fixes
+
+* **pageBalancing:** prevent re-layouting a split portion of a paragraph ([74ff272](https://github.com/Paladin-Analytics/react-pdf/commit/74ff272a9c96edf5b0f6943ce5f8f00b5da76b7a)), closes [#AT-845](https://github.com/Paladin-Analytics/react-pdf/issues/AT-845)
+
+
+
+
+
 ## [2.7.4](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-layout@2.7.3...@paladin-analytics/rpdf-layout@2.7.4) (2022-12-13)
 
 **Note:** Version bump only for package @paladin-analytics/rpdf-layout

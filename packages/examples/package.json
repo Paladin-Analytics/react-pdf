@@ -1,6 +1,6 @@
 {
   "name": "@paladin-analytics/rpdf-examples",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "license": "MIT",
   "private": true,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -12,7 +12,7 @@
     "start": "parcel ./src/index.html -p 3000"
   },
   "dependencies": {
-    "@paladin-analytics/rpdf-renderer": "^2.4.4",
+    "@paladin-analytics/rpdf-renderer": "^2.4.5",
     "camelcase": "^6.2.0",
     "ramda": "^0.27.1"
   },
