@@ -48,6 +48,7 @@ const EXAMPLES = {
   "benchmarkTest-1000":BenchMark.word1000,
   "benchmarkTest-10000":BenchMark.word10000,
   "benchmarkTest-100000":BenchMark.word100000,
+  "benchmarkTest-1000000":BenchMark.word1000000,
 
 };
 
