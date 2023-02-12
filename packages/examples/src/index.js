@@ -19,7 +19,7 @@ import Unicode from './unicode';
 import Footnotes from './footnotes';
 import DynamicBreaks from './dynamicBreaks';
 import Hyphens from './hyphens';
-
+import BenchMark from './benchmarkTest'
 import editorFonts from './text-enhancements/fonts';
 
 editorFonts.forEach(el => {
@@ -44,6 +44,11 @@ const EXAMPLES = {
   dynamicBreaks: DynamicBreaks,
   hyphens: Hyphens,
   pageBalancing: PageBalancing,
+  "benchmarkTest-100":BenchMark.word100,
+  "benchmarkTest-1000":BenchMark.word1000,
+  "benchmarkTest-10000":BenchMark.word10000,
+  "benchmarkTest-100000":BenchMark.word100000,
+
 };
 
 const Viewer = () => {
