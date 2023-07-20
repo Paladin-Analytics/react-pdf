@@ -21,7 +21,7 @@ const createInstance = element => {
   if (isString(element) || isNumber(element))
     return { type: TextInstance, value: `${element}` };
 
-  if (isNotString(element.type))
+  if (isNotString(element.type) && typeof element.type === 'function')
     return createInstance(element.type(element.props));
 
   const {
