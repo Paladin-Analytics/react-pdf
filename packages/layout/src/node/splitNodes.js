@@ -75,7 +75,8 @@ const splitNodes = (height, contentArea, nodes) => {
         }),
       })(child);
 
-      currentChildren.push(...futureFixedNodes);
+      //removed pushing futureFixedNodes into currentChildren to prevent footnote duplication with keep settings
+      //currentChildren.push(...futureFixedNodes);
       nextChildren.push(next, ...futureNodes);
       break;
     }

@@ -76,15 +76,18 @@ function getFootnotes(node, top = 0) {
     );
     const notes = [];
     let topUpto = nodeTop + parentTop;
+    let previousLines = 0;
 
     for (let i = 0; i < node.lines.length; i += 1) {
       const line = node.lines[i];
+      if (i - 1 >= 0) previousLines += node.lines[i - 1].string.length + 1;
       notes.push(
         ...calculatedNotes
-          .filter(
-            e => e.loc - e.ref.length < line.textBefore + line.string.length,
-          )
-          .filter(e => e.loc >= line.textBefore)
+          .filter(  // check if the footnote is present within a line
+            e =>
+              e.loc - e.ref.length < line.string.length + previousLines &&
+              e.loc - e.ref.length >= previousLines,
+          ) 
           .map(r => ({
             ...r,
             approxTop: topUpto,
