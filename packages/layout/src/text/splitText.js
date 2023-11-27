@@ -34,7 +34,7 @@ const getLineBreak = (node, height) => {
   }
 
   if (linesQuantity < orphans) {
-    return [linesQuantity, 0];
+    return [linesQuantity - 1, 0];
   }
 
   if (slicedLine < orphans || linesQuantity < orphans + widows) {
