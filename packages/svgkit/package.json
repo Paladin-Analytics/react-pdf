@@ -1,7 +1,7 @@
 {
   "name": "@surge-global-engineering/rpdf-svgkit",
   "license": "MIT",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "description": "A SVG generation library for Node.js and browser",
   "main": "./lib/index.js",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "@surge-global-engineering/rpdf-pdfkit": "^2.0.18",
+    "@surge-global-engineering/rpdf-pdfkit": "^2.0.19",
     "ramda": "^0.26.1"
   },
   "gitHead": "d9ae76f351834bf3450a2c8abac079753035bc4b"

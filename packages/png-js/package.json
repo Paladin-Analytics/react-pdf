@@ -1,7 +1,7 @@
 {
   "name": "@surge-global-engineering/rpdf-png-js",
   "description": "A PNG decoder in JS",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "lib/png-js.cjs.js",
   "module": "lib/png-js.es.js",
   "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",

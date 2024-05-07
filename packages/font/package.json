@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-font",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
@@ -15,8 +15,8 @@
     "watch": "rimraf ./lib && rollup -c -w"
   },
   "dependencies": {
-    "@surge-global-engineering/rpdf-fontkit": "^2.0.13",
-    "@surge-global-engineering/rpdf-types": "^2.5.2",
+    "@surge-global-engineering/rpdf-fontkit": "^2.0.14",
+    "@surge-global-engineering/rpdf-types": "^2.5.3",
     "cross-fetch": "^3.0.4",
     "is-url": "^1.2.4"
   },
