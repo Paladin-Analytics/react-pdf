@@ -1,7 +1,7 @@
 {
   "name": "@surge-global-engineering/rpdf-textkit",
   "license": "MIT",
-  "version": "2.3.7",
+  "version": "2.3.8",
   "description": "An advanced text layout framework",
   "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "./lib/index.js",
@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.10",
+    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.11",
     "hyphen": "^1.6.4",
     "ramda": "^0.26.1"
   },
