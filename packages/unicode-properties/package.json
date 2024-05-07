@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-unicode-properties",
-  "version": "2.4.9",
+  "version": "2.4.10",
   "license": "MIT",
   "description": "Provides fast access to unicode character properties",
   "author": "Devon Govett <devongovett@gmail.com>",
