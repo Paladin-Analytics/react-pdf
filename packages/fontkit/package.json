@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-fontkit",
-  "version": "2.0.14",
+  "version": "2.0.16",
   "description": "An advanced font engine for Node and the browser",
   "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "scripts": {
@@ -36,5 +36,5 @@
     "concat-stream": "^1.4.6",
     "iconv-lite": "^0.4.13"
   },
-  "gitHead": "d9ae76f351834bf3450a2c8abac079753035bc4b"
+  "gitHead": "acdb6e986a016667a3fda96b7a639e962a5970a1"
 }
