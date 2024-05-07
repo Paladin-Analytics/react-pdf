@@ -1,4 +1,4 @@
-import unicode from '@paladin-analytics/rpdf-unicode-properties';
+import unicode from '@surge-global-engineering/rpdf-unicode-properties';
 
 // This maps the Unicode Script property to an OpenType script tag
 // Data from http://www.microsoft.com/typography/otspec/scripttags.htm

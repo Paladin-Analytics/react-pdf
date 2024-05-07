@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import { Document, Svg } from '@paladin-analytics/rpdf-primitives';
+import { Document, Svg } from '@surge-global-engineering/rpdf-primitives';
 
 const getZIndex = R.path(['style', 'zIndex']);
 

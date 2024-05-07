@@ -6,7 +6,7 @@ import {
   Path,
   Text,
   Tspan,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 
 const Svg1 = () => (
   <Svg width="400" viewBox="0 0 600 400">

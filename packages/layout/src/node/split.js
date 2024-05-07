@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 
 import splitText from '../text/splitText';
 // eslint-disable-next-line import/no-cycle

@@ -1,4 +1,4 @@
-import fontkit from '@paladin-analytics/rpdf-fontkit';
+import fontkit from '@surge-global-engineering/rpdf-fontkit';
 import createStandardFont from './font/standard';
 import createEmbeddedFont from './font/embedded';
 

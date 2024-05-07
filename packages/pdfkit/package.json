@@ -1,10 +1,10 @@
 {
-  "name": "@paladin-analytics/rpdf-pdfkit",
+  "name": "@surge-global-engineering/rpdf-pdfkit",
   "version": "2.0.16",
   "description": "A PDF generation library for Node.js",
   "main": "lib/pdfkit.cjs.js",
   "module": "lib/pdfkit.es.js",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "browser": {
     "./lib/pdfkit.es.js": "./lib/pdfkit.browser.es.js",
     "./lib/pdfkit.cjs.js": "./lib/pdfkit.browser.cjs.js"
@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@paladin-analytics/rpdf-fontkit": "^2.0.11",
-    "@paladin-analytics/rpdf-png-js": "^2.0.7",
+    "@surge-global-engineering/rpdf-fontkit": "^2.0.11",
+    "@surge-global-engineering/rpdf-png-js": "^2.0.7",
     "crypto-js": "^4.0.0"
   },
   "devDependencies": {

@@ -1,10 +1,10 @@
 {
-  "name": "@paladin-analytics/rpdf-primitives",
+  "name": "@surge-global-engineering/rpdf-primitives",
   "version": "2.0.5",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "./src/index.js",
   "scripts": {
     "test": "jest"

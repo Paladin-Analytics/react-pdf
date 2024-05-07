@@ -7,7 +7,7 @@ import {
   Image,
   StyleSheet,
   View,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 
 const styles = StyleSheet.create({
   body: {

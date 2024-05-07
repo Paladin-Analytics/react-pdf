@@ -1,4 +1,4 @@
-import PNG from '@paladin-analytics/rpdf-png-js';
+import PNG from '@surge-global-engineering/rpdf-png-js';
 
 PNG.isValid = function(data) {
   try {

@@ -2,21 +2,21 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
 </p>
 
-# @paladin-analytics/rpdf-render
+# @surge-global-engineering/rpdf-render
 
 > React-pdf render engine
 
 ## How to install
 
 ```sh
-yarn add @paladin-analytics/rpdf-render
+yarn add @surge-global-engineering/rpdf-render
 ```
 
 ## How it works
 
 ```js
-const render = require('@paladin-analytics/rpdf-render');
-const primitives = require('@paladin-analytics/rpdf-primitives');
+const render = require('@surge-global-engineering/rpdf-render');
+const primitives = require('@surge-global-engineering/rpdf-primitives');
 
 const view = {
   type: primitives.View,
@@ -75,7 +75,7 @@ Bare in mind this package does not handle any type of node positioning, inherita
 
 ### node.type
 
-Mandatory field specifiying the type of the particular node. The full list of types can be found and imported from `@paladin-analytics/rpdf-primitives`
+Mandatory field specifiying the type of the particular node. The full list of types can be found and imported from `@surge-global-engineering/rpdf-primitives`
 
 ### node.box
 
@@ -124,8 +124,8 @@ Specific node params needed to render correctly ot behave like certain way. Spec
 
 ```js
 const fs = require('fs');
-const render = require('@paladin-analytics/rpdf-render');
-const pdfkit = require('@paladin-analytics/rpdf-pdfkit');
+const render = require('@surge-global-engineering/rpdf-render');
+const pdfkit = require('@surge-global-engineering/rpdf-pdfkit');
 
 const PDFDocument = pdfkit.default;
 

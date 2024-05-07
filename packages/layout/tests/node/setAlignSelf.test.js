@@ -1,4 +1,4 @@
-import Yoga from '@paladin-analytics/rpdf-yoga';
+import Yoga from '@surge-global-engineering/rpdf-yoga';
 
 import setAlignSelf from '../../src/node/setAlignSelf';
 

@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 import isRect from '../../src/utils/isRect';
 
 const ASSERTED_TYPE = P.Rect;

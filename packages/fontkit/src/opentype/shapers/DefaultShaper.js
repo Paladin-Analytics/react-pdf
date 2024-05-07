@@ -1,6 +1,6 @@
 // Updated: 417af0c79c5664271a07a783574ec7fac7ebad0c
 
-import unicode from '@paladin-analytics/rpdf-unicode-properties';
+import unicode from '@surge-global-engineering/rpdf-unicode-properties';
 
 const VARIATION_FEATURES = ['rvrn'];
 const COMMON_FEATURES = ['ccmp', 'locl', 'rlig', 'mark', 'mkmk'];

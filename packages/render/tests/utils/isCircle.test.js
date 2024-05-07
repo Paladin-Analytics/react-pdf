@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 import isCircle from '../../src/utils/isCircle';
 
 const ASSERTED_TYPE = P.Circle;

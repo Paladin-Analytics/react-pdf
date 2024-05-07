@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 
 import * as R from 'ramda';
-import Yoga from '@paladin-analytics/rpdf-yoga';
+import Yoga from '@surge-global-engineering/rpdf-yoga';
 
 import layoutText from './layoutText';
 import linesWidth from './linesWidth';

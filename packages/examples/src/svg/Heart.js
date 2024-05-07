@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Svg, G, Path } from '@paladin-analytics/rpdf-renderer';
+import { Svg, G, Path } from '@surge-global-engineering/rpdf-renderer';
 
 const Heart = () => (
   <Svg viewBox="-40 0 150 100" xmlns="http://www.w3.org/2000/svg">

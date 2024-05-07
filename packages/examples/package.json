@@ -1,18 +1,18 @@
 {
-  "name": "@paladin-analytics/rpdf-examples",
+  "name": "@surge-global-engineering/rpdf-examples",
   "version": "2.6.8",
   "license": "MIT",
   "private": true,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "lib",
   "scripts": {
     "test": "echo jest",
     "start": "parcel ./src/index.html -p 3000"
   },
   "dependencies": {
-    "@paladin-analytics/rpdf-renderer": "^2.4.8",
+    "@surge-global-engineering/rpdf-renderer": "^2.4.8",
     "camelcase": "^6.2.0",
     "ramda": "^0.27.1"
   },

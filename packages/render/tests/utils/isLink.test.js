@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 import isLink from '../../src/utils/isLink';
 
 const ASSERTED_TYPE = P.Link;

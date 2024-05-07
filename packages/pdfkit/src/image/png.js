@@ -1,5 +1,5 @@
 import zlib from 'zlib';
-import PNG from '@paladin-analytics/rpdf-png-js';
+import PNG from '@surge-global-engineering/rpdf-png-js';
 
 class PNGImage {
   constructor(data, label) {

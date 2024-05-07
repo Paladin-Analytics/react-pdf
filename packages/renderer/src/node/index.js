@@ -1,4 +1,4 @@
-import * as primitives from '@paladin-analytics/rpdf-primitives';
+import * as primitives from '@surge-global-engineering/rpdf-primitives';
 
 import renderToFile from './renderToFile';
 import renderToStream from './renderToStream';
@@ -37,7 +37,7 @@ export * from './renderToStream';
 
 export * from './renderToString';
 
-export * from '@paladin-analytics/rpdf-primitives';
+export * from '@surge-global-engineering/rpdf-primitives';
 
 export default {
   pdf,

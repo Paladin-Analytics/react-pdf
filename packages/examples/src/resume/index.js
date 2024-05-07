@@ -7,7 +7,7 @@ import {
   Image,
   Document,
   StyleSheet,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 
 import Header from './Header';
 import Skills from './Skills';

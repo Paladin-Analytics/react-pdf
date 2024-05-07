@@ -8,7 +8,7 @@ import {
   Link,
   View,
   Image,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 
 export default () => (
   <Document>

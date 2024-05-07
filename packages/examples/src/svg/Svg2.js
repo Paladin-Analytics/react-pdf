@@ -10,7 +10,7 @@ import {
   Tspan,
   LinearGradient,
   Stop,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 
 const Svg2 = () => (
   <Svg width="400" viewBox="0 0 600 400">

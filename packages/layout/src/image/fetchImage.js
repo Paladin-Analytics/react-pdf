@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 
-import resolveImage from '@paladin-analytics/rpdf-image';
+import resolveImage from '@surge-global-engineering/rpdf-image';
 
 import getSource from './getSource';
 import resolveSource from './resolveSource';

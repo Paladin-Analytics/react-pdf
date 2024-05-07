@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import flatten from '@paladin-analytics/rpdf-stylesheet/lib/flatten';
+import flatten from '@surge-global-engineering/rpdf-stylesheet/lib/flatten';
 
 import getPageSize from '../page/getSize';
 

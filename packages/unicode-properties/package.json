@@ -1,5 +1,5 @@
 {
-  "name": "@paladin-analytics/rpdf-unicode-properties",
+  "name": "@surge-global-engineering/rpdf-unicode-properties",
   "version": "2.4.6",
   "license": "MIT",
   "description": "Provides fast access to unicode character properties",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "codepoints": "^1.2.0"
   },
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "files": [
     "lib"
   ],

@@ -1,8 +1,8 @@
 {
-  "name": "@paladin-analytics/rpdf-fontkit",
+  "name": "@surge-global-engineering/rpdf-fontkit",
   "version": "2.0.11",
   "description": "An advanced font engine for Node and the browser",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "scripts": {
     "watch": "rimraf ./lib && rollup -c -w",
     "build": "npm run trie:data && npm run trie:use && npm run trie:indic && rollup -c",
@@ -22,7 +22,7 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@paladin-analytics/rpdf-unicode-properties": "^2.4.6",
+    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.6",
     "brotli": "^1.2.0",
     "clone": "^1.0.4",
     "deep-equal": "^1.0.0",

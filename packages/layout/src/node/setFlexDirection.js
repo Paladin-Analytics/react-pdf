@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import Yoga from '@paladin-analytics/rpdf-yoga';
+import Yoga from '@surge-global-engineering/rpdf-yoga';
 
 const isRow = R.equals('row');
 const isRowReverse = R.equals('row-reverse');

@@ -2,7 +2,7 @@ import './index.css';
 
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer, Font } from '@paladin-analytics/rpdf-renderer';
+import { PDFViewer, Font } from '@surge-global-engineering/rpdf-renderer';
 
 import Svg from './svg';
 import GoTo from './goTo';

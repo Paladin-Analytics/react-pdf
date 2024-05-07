@@ -1,6 +1,6 @@
 import { cache } from '../decorators';
 import Path from './Path';
-import unicode from '@paladin-analytics/rpdf-unicode-properties';
+import unicode from '@surge-global-engineering/rpdf-unicode-properties';
 import StandardNames from './StandardNames';
 
 /**
