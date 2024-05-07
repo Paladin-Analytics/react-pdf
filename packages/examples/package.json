@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-examples",
-  "version": "2.6.9",
+  "version": "2.6.10",
   "license": "MIT",
   "private": true,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -12,7 +12,7 @@
     "start": "parcel ./src/index.html -p 3000"
   },
   "dependencies": {
-    "@surge-global-engineering/rpdf-renderer": "^2.4.9",
+    "@surge-global-engineering/rpdf-renderer": "^2.4.10",
     "camelcase": "^6.2.0",
     "ramda": "^0.27.1"
   },
