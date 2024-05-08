@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-pdfkit",
-  "version": "2.0.21",
+  "version": "2.0.22",
   "description": "A PDF generation library for Node.js",
   "main": "lib/pdfkit.cjs.js",
   "module": "lib/pdfkit.es.js",
@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@surge-global-engineering/rpdf-fontkit": "^2.0.18",
-    "@surge-global-engineering/rpdf-png-js": "^2.0.12",
+    "@surge-global-engineering/rpdf-fontkit": "^2.0.19",
+    "@surge-global-engineering/rpdf-png-js": "^2.0.13",
     "crypto-js": "^4.0.0"
   },
   "devDependencies": {

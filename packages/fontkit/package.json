@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/rpdf-fontkit",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "An advanced font engine for Node and the browser",
   "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "scripts": {
@@ -22,7 +22,7 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.11",
+    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.12",
     "brotli": "^1.2.0",
     "clone": "^1.0.4",
     "deep-equal": "^1.0.0",
