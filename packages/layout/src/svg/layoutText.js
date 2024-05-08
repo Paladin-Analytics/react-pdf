@@ -1,12 +1,12 @@
 import * as R from 'ramda';
-import * as P from '@paladin-analytics/rpdf-primitives';
-import layoutEngine from '@paladin-analytics/rpdf-textkit/lib/layout';
-import linebreaker from '@paladin-analytics/rpdf-textkit/lib/engines/linebreaker';
-import AttributedString from '@paladin-analytics/rpdf-textkit/lib/attributedString';
-import justification from '@paladin-analytics/rpdf-textkit/lib/engines/justification';
-import scriptItemizer from '@paladin-analytics/rpdf-textkit/lib/engines/scriptItemizer';
-import wordHyphenation from '@paladin-analytics/rpdf-textkit/lib/engines/wordHyphenation';
-import decorationEngine from '@paladin-analytics/rpdf-textkit/lib/engines/textDecoration';
+import * as P from '@surge-global-engineering/rpdf-primitives';
+import layoutEngine from '@surge-global-engineering/rpdf-textkit/lib/layout';
+import linebreaker from '@surge-global-engineering/rpdf-textkit/lib/engines/linebreaker';
+import AttributedString from '@surge-global-engineering/rpdf-textkit/lib/attributedString';
+import justification from '@surge-global-engineering/rpdf-textkit/lib/engines/justification';
+import scriptItemizer from '@surge-global-engineering/rpdf-textkit/lib/engines/scriptItemizer';
+import wordHyphenation from '@surge-global-engineering/rpdf-textkit/lib/engines/wordHyphenation';
+import decorationEngine from '@surge-global-engineering/rpdf-textkit/lib/engines/textDecoration';
 
 import transformText from '../text/transformText';
 import fontSubstitution from '../text/fontSubstitution';

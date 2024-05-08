@@ -1,6 +1,6 @@
 import * as R from 'ramda';
-import * as P from '@paladin-analytics/rpdf-primitives';
-import AttributedString from '@paladin-analytics/rpdf-textkit/lib/attributedString';
+import * as P from '@surge-global-engineering/rpdf-primitives';
+import AttributedString from '@surge-global-engineering/rpdf-textkit/lib/attributedString';
 
 import { embedEmojis } from './emoji';
 import ignoreChars from './ignoreChars';

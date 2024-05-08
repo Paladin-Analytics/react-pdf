@@ -2,7 +2,7 @@
 /* eslint-disable prefer-destructuring */
 
 import * as R from 'ramda';
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 import { resolvePageDimensions } from './resolveDimensions';
 import resolveInheritance from './resolveInheritance';
 import resolveTextLayout from './resolveTextLayout';

@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/rpdf-primitives';
 import isPolygon from '../../src/utils/isPolygon';
 
 const ASSERTED_TYPE = P.Polygon;

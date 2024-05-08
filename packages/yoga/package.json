@@ -1,11 +1,11 @@
 {
-  "name": "@paladin-analytics/rpdf-yoga",
-  "version": "2.0.7",
+  "name": "@surge-global-engineering/rpdf-yoga",
+  "version": "2.0.13",
   "description": "Prebuilt yoga-layout package",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "src/dist/entry-browser",
   "types": "index.d.ts",
   "scripts": {
@@ -20,5 +20,5 @@
   "dependencies": {
     "@types/yoga-layout": "^1.9.3"
   },
-  "gitHead": "6e1a20c4a868ba803b78dd68c5cdae8fdabff932"
+  "gitHead": "c156b44f3665b55f4d39fde532adeffcbaa3a424"
 }

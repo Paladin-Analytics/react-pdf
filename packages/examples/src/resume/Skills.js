@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 
 import React from 'react';
-import { Text, View, StyleSheet } from '@paladin-analytics/rpdf-renderer';
+import { Text, View, StyleSheet } from '@surge-global-engineering/rpdf-renderer';
 
 import Title from './Title';
 import List, { Item } from './List';

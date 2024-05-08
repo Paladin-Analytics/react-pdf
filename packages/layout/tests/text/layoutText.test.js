@@ -1,5 +1,5 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
-import runWidth from '@paladin-analytics/rpdf-textkit/lib/run/advanceWidth';
+import * as P from '@surge-global-engineering/rpdf-primitives';
+import runWidth from '@surge-global-engineering/rpdf-textkit/lib/run/advanceWidth';
 
 import layoutText from '../../src/text/layoutText';
 

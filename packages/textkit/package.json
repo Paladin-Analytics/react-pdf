@@ -1,9 +1,9 @@
 {
-  "name": "@paladin-analytics/rpdf-textkit",
+  "name": "@surge-global-engineering/rpdf-textkit",
   "license": "MIT",
-  "version": "2.3.3",
+  "version": "2.3.9",
   "description": "An advanced text layout framework",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "./lib/index.js",
   "contributors": [
     "Devon Govett <devongovett@gmail.com>",
@@ -19,9 +19,9 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.3",
-    "@paladin-analytics/rpdf-unicode-properties": "^2.4.6",
+    "@surge-global-engineering/rpdf-unicode-properties": "^2.4.12",
     "hyphen": "^1.6.4",
     "ramda": "^0.26.1"
   },
-  "gitHead": "6e1a20c4a868ba803b78dd68c5cdae8fdabff932"
+  "gitHead": "c156b44f3665b55f4d39fde532adeffcbaa3a424"
 }

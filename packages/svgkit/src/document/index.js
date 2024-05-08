@@ -2,7 +2,7 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable class-methods-use-this */
 
-// import { PDFFont } from '@paladin-analytics/rpdf-pdfkit';
+// import { PDFFont } from '@surge-global-engineering/rpdf-pdfkit';
 
 import SVGPage from '../page';
 import serialize from './serialize';

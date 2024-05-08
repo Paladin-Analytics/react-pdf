@@ -2,7 +2,7 @@
 
 import isUrl from 'is-url';
 import fetch from 'cross-fetch';
-import fontkit from '@paladin-analytics/rpdf-fontkit';
+import fontkit from '@surge-global-engineering/rpdf-fontkit';
 
 const FONT_WEIGHTS = {
   thin: 100,

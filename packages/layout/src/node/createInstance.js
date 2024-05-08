@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import { TextInstance } from '@paladin-analytics/rpdf-primitives';
+import { TextInstance } from '@surge-global-engineering/rpdf-primitives';
 
 import castArray from '../utils/castArray';
 

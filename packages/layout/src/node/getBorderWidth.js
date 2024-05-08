@@ -1,4 +1,4 @@
-import Yoga from '@paladin-analytics/rpdf-yoga';
+import Yoga from '@surge-global-engineering/rpdf-yoga';
 
 const getComputedBorder = (yogaNode, edge) =>
   yogaNode ? yogaNode.getComputedBorder(edge) : 0;

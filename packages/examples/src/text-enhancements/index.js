@@ -6,7 +6,7 @@ import {
   View,
   Text,
   StyleSheet,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/rpdf-renderer';
 import fonts from './fonts';
 
 const styles = StyleSheet.create({

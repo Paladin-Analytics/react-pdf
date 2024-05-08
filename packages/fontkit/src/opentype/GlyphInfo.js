@@ -1,4 +1,4 @@
-import unicode from '@paladin-analytics/rpdf-unicode-properties';
+import unicode from '@surge-global-engineering/rpdf-unicode-properties';
 import OTProcessor from './OTProcessor';
 
 export default class GlyphInfo {

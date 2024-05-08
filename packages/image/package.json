@@ -1,10 +1,10 @@
 {
-  "name": "@paladin-analytics/rpdf-image",
-  "version": "2.0.8",
+  "name": "@surge-global-engineering/rpdf-image",
+  "version": "2.0.14",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "main": "lib/index.js",
   "browser": {
     "./lib/index.js": "./lib/index.browser.js"
@@ -15,7 +15,7 @@
     "watch": "rimraf ./lib && rollup -c -w"
   },
   "dependencies": {
-    "@paladin-analytics/rpdf-png-js": "^2.0.7",
+    "@surge-global-engineering/rpdf-png-js": "^2.0.13",
     "cross-fetch": "^3.0.4"
   },
   "devDependencies": {
@@ -24,5 +24,5 @@
   "files": [
     "lib"
   ],
-  "gitHead": "6e1a20c4a868ba803b78dd68c5cdae8fdabff932"
+  "gitHead": "c156b44f3665b55f4d39fde532adeffcbaa3a424"
 }

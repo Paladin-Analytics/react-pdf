@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link, Text, View, StyleSheet } from '@paladin-analytics/rpdf-renderer';
+import { Link, Text, View, StyleSheet } from '@surge-global-engineering/rpdf-renderer';
 
 const styles = StyleSheet.create({
   container: {

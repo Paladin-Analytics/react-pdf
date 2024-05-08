@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, G, Polygon } from '@paladin-analytics/rpdf-renderer';
+import { Svg, G, Polygon } from '@surge-global-engineering/rpdf-renderer';
 
 const Tiger = () => (
   <Svg style={{ width: 400, height: 400 }}>

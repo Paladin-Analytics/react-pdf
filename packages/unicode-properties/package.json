@@ -1,6 +1,6 @@
 {
-  "name": "@paladin-analytics/rpdf-unicode-properties",
-  "version": "2.4.6",
+  "name": "@surge-global-engineering/rpdf-unicode-properties",
+  "version": "2.4.12",
   "license": "MIT",
   "description": "Provides fast access to unicode character properties",
   "author": "Devon Govett <devongovett@gmail.com>",
@@ -17,9 +17,9 @@
   "devDependencies": {
     "codepoints": "^1.2.0"
   },
-  "repository": "git@github.com:Paladin-Analytics/react-pdf.git",
+  "repository": "git@github.com:SURGE-GLOBAL-ENGINEERING/react-pdf.git",
   "files": [
     "lib"
   ],
-  "gitHead": "6e1a20c4a868ba803b78dd68c5cdae8fdabff932"
+  "gitHead": "c156b44f3665b55f4d39fde532adeffcbaa3a424"
 }
